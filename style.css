@@ -1,0 +1,55 @@
+/* .container{
+    margin: top 100px;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.square1{
+    background-color: blueviolet;
+    transition: transform 0.9s ease;
+}
+.square2{
+    background-color: rgb(61, 210, 64);
+    transition: transform 0.9s ease-in;
+}
+.square3{
+    background-color: rgb(250, 15, 15);
+    transition: transform 0.9s ease-out;
+}
+.square4{
+    background-color: rgb(211, 188, 57);
+    transition: transform 0.9s ease-in-out;
+}
+.square5{
+    background-color: rgb(210, 18, 159);
+    transition: transform 0.9s linear;
+}
+.container:hover .square{
+    transform: translateX(500px);
+}
+.bigSquare{
+    height: 200px;
+    width: 200px;
+    border: 3px solid pink;
+    background-color: aquamarine;
+    transition: border-colour 1s ease-in;
+}
+.bigSquare{
+    border-color: violet;
+} */
+div{
+    height: 150px;
+    width: 300px;
+    
+    background-image:repeating-linear-gradient(
+        60deg,black,white 10px,black 10px,white 10px
+    );
+    transition: all 2s ease-in-out;
+ }
+ div:hover{
+    background-image: linear-gradient(10deg,black,white,black);
+    margin-left: 500px;
+    transform: rotate(360deg) skew(15deg) scale(0.7);
+ }
